@@ -1,0 +1,472 @@
+:root {
+    --bg-main: #ffff;
+    --bg-dark: #2a2a2a;
+    --bg-dark-hover: #2a2a2af9;
+    --text-light: #ffff;
+    --text-dark: #2a2a2a;
+    --text-gray: #a1a1a1;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+/* ***************   navbar  ****************/
+.navbar {
+    padding: 0.5rem 1rem;
+    border-bottom: 2px dotted var(--bg-dark);
+    position: fixed;
+    top: 0rem;
+    width: 100%;
+}
+
+.nav-link {
+    font-size: 1.1em;
+    font-weight: 600;
+}
+
+/* ***************   hero section ****************/
+.home {
+    height: auto;
+    border-bottom: 3px dotted rgba(0, 0, 0, 0.358);
+}
+
+.banner {
+    background-image: url(images/left-banner-image.jpg);
+    width: 100%;
+    height: 50vh;
+    background-size: cover;
+    color: var(--text-light);
+}
+
+.banner h1 {
+    font-size: 3em;
+    color: var(--text-light);
+    font-weight: 700;
+}
+
+.banner h4 {
+    font-size: medium;
+    width: 80%;
+    font-style: italic;
+}
+
+.women {
+    background-image: url(images/baner-right-image-01.jpg);
+
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.men {
+    background-image: url(images/baner-right-image-02.jpg);
+    height: 50vh;
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+
+.kids {
+    background-image: url(images/baner-right-image-03.jpg);
+    height: 50vh;
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.accessories {
+    background-image: url(images/baner-right-image-04.jpg);
+    height: 50vh;
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.hover-content {
+    opacity: 0;
+    transition: all .7s ease;
+    background-color: var(--bg-dark-hover);
+    position: absolute;
+    width: 90%;
+    height: 90%;
+
+}
+
+.women:hover .hover-content {
+    opacity: 1;
+}
+
+.men:hover .hover-content {
+    opacity: 1;
+}
+
+.kids:hover .hover-content {
+    opacity: 1;
+}
+
+.accessories:hover .hover-content {
+    opacity: 1;
+}
+
+
+/* ***************   men section  ****************/
+#men{
+    border-bottom: 3px dotted rgba(0, 0, 0, 0.358);
+}
+
+
+.men-sec h2 {
+    font-size: 2.2em;
+}
+
+.men-sec p {
+    font-size: .8em;
+    color: var(--text-gray);
+}
+
+.card h3 {
+    font-size: 1.3em;
+}
+
+.card-price h4 {
+    color: var(--text-gray);
+    padding-bottom: 2rem;
+    font-size:1.3em ;
+}
+
+.card {
+    border: none;
+}
+
+.card-body {
+    padding: 0;
+    padding-top: 1rem
+}
+
+.star i {
+    font-size: small;
+}
+
+.card:hover .card-hide {
+    opacity: 1;
+}
+
+.card-hide {
+    position: absolute;
+    top: 19rem;
+    opacity: 0;
+    transition: opacity .6s ease 0s;
+}
+
+.card-hide-icon {
+    width: 11vw;
+    height: 7vh;
+    background-color: var(--bg-main);
+}
+
+
+/* ***************   explore section  ****************/
+#explore{
+     border-bottom: 3px dotted rgba(0, 0, 0, 0.358);
+}
+
+
+.explore h2 {
+    font-size: 2em;
+    font-weight: 700;
+}
+
+.explore-left p {
+    color: var(--text-gray);
+    font-weight: 500;
+    font-size: .9em;
+    width: 95%;
+}
+
+.explore-contain i {
+    font-size: 3em;
+}
+
+.explore-contain p {
+    color: #2a2a2a;
+    font-style: italic;
+    font-size: small;
+    width: 70%;
+}
+
+.explore-left span {
+    color: rgba(0, 0, 255, 0.901);
+}
+
+.explore-right-1 {
+    width: 100%;
+    height: 40vh;
+    background-color: #f8f8f8;
+}
+
+.explore-right-1 p {
+    color: var(--text-gray);
+}
+
+.explore-right-2 img {
+    width: 100%;
+}
+
+#women{
+    border-bottom: 3px dotted rgba(0, 0, 0, 0.358);
+}
+
+#kids{
+    border-bottom: 3px dotted rgba(0, 0, 0, 0.358);
+}
+
+/* ***************   social-media section  ****************/
+
+#social-m {
+    border-bottom: 3px dotted rgba(0, 0, 0, 0.358);
+}
+
+.social-m h2 {
+    font-size: 2em;
+    font-weight: 700;
+}
+
+.social-m p {
+    color: var(--text-gray);
+    font-weight: 500;
+    font-size: .9em;
+    width: 95%;
+}
+
+.col-2 {
+    width: 16.66%;
+    padding: 0;
+}
+
+.insta-img img {
+    width: 100%;
+    height: 15vh;
+}
+
+
+
+/* ***************   subscribe section  ****************/
+.subscribe h2 {
+    font-size: 2em;
+    font-weight: 700;
+}
+
+.subscribe p {
+    color: var(--text-gray);
+    font-weight: 500;
+    font-size: .9em;
+}
+
+.sub-left-input input {
+    width: 100%;
+    height: 6vh;
+    color: var(--text-gray);
+    font-weight: 500;
+}
+
+.sub-icon {
+    width: 100%;
+    height: 6.2vh;
+    background-color: var(--bg-dark);
+}
+
+.sub-icon:hover {
+    background-color: var(--bg-light);
+    border: 1px solid var(--bg-dark);
+}
+
+.sub-icon i {
+    color: var(--text-light);
+}
+
+.sub-icon:hover i {
+    color: var(--text-dark);
+}
+
+
+/* ***************   footer  ****************/
+.footer {
+    background-color: var(--bg-dark);
+
+}
+
+.footer li {
+    list-style: none;
+}
+
+.footer ul {
+    padding-left: 0;
+}
+
+.footer a {
+    color: var(--text-light);
+    text-decoration: none;
+    font-size: .9em;
+}
+
+
+.under-footer{
+    border-top: 1px solid var(--text-gray);
+}
+.copy-right p{
+    font-size: .8em;
+}
+.copy-right span{
+    color: #cff;
+}
+.under-footer-icons i{
+    color: #cff;
+}
+
+
+
+
+@media(width : 768px) {
+    .banner {
+        min-height: 80vh;
+    }
+
+    .hover-content {
+        width: 95%;
+        height: 95%;
+    }
+
+    .card-hide {
+        top: 18rem;
+    }
+
+    .men {
+        height: 70vh;
+    }
+
+    .women {
+        height: 70vh;
+    }
+
+    .kids {
+        height: 70vh;
+    }
+
+    .accessories {
+        height: 70vh;
+    }
+
+    .insta-img img {
+        height: 20vh;
+    }
+
+    .explore-right-2 img {
+        height: 60vh;
+        object-fit: fill;
+    }
+
+    .footer a {
+        font-size: 0.85em;
+    }
+
+    .footer .col-md-6 {
+        margin-bottom: 1.5rem;
+        text-align: start !important;
+
+    }
+    
+
+}
+
+
+
+@media(min-width : 992px) {
+    .nav-link{
+        font-size: medium;
+    }
+
+    .banner {
+        height: 80vh;
+    }
+
+    .banner h1 {
+        width: 70%;
+    }
+
+    .banner h4 {
+        width: 70%;
+    }
+
+    .women,
+    .men,
+    .kids,
+    .accessories {
+        height: 39vh;
+        width: 47%;
+    }
+    .hover-content h6{
+        font-size: small;
+    }
+    .hover-content button{
+        font-size: small;
+    }
+    .men-sec p {
+        width: 45%;
+    }
+    .card-detail h3{
+        font-size: large;
+    }
+    .card-hide{
+        top: 14rem;
+    }
+    .card-hide-icon{
+        width: 6vw;
+    }
+    .sub-left-input input {
+        width: auto;
+    } 
+    .sub-icon{
+        width: 50%;
+    }
+    .explore-right-1{
+        height: 34vh;
+    }
+}
+
+
+
+@media(min-width :1200px){
+    
+    .card-hide{
+        top: 19rem;
+    }
+    .explore-left p{
+        line-height: 2em;
+    }
+    .explore-right-1{
+        height: 42vh;
+    }
+    .sub-left-input input {
+        width: 100%;
+        font-weight: 400;
+    } 
+}

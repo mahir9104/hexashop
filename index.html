@@ -1,0 +1,737 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hexashop</title>
+
+  <link rel="stylesheet" href="fontawesome/css/all.css">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+
+
+
+</head>
+
+<body>
+  <!-- ***************  navbar start  *************** -->
+  <nav class="navbar navbar-expand-lg bg-white sticky-top shadow-sm">
+    <div class="container">
+
+      <a class="navbar-brand" href="#">
+        <img src="images/logo.png" alt="Hexashop Logo" style="width: 120px;">
+      </a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+        aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="offcanvas offcanvas-end w-75" tabindex="-1" id="offcanvasNavbar"
+        aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#men">Men's</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#women">Women's</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#kids">Kids's</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#explore">Explore</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- ***************  navbar end  *************** -->
+
+
+
+  <!-- ***************   hero section start  *************** -->
+  <section id="home">
+    <div class="container-fluid home mt-5 text-white">
+      <div class="row gap-4 gap-lg-0">
+        <div class="col-12 col-lg-6 mt-5 ">
+          <div class="banner d-flex justify-content-center align-items-center flex-column text-center ">
+            <h1 class="mb-4">We Are Hexashop</h1>
+            <h4>Refined Trends for Modern Men, Women, and Kids.</h4>
+            <button type="button" class="btn btn-outline-light rounded-0 mt-4">Purchase Now!</button>
+          </div>
+        </div>
+        <div class="col-12 col-lg-6 mt-lg-5">
+          <div class="container">
+            <div class="row gap-4 gap-lg-3 mb-4 mb-lg-3">
+              <div
+                class="col-12 col-lg-6 p-2 women d-flex justify-content-center align-items-center flex-column position-relative">
+                <h3 class="fw-bold pb-2">Women</h3>
+                <h6 class="fst-italic">Best Clothes For Women</h6>
+                <div class="hover-content  ">
+                  <div class="d-flex justify-content-center align-items-center flex-column h-100">
+                    <h3 class="fw-bold pb-2">Women</h3>
+                    <h6 class="fw-light text-center w-75 lh-base pb-2">Dress bold, shine bright, live your story.</h6>
+                    <button type="button" class="btn btn-outline-light rounded-0">Discover More</button>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col-12 col-lg-6 men d-flex justify-content-center align-items-center flex-column position-relative">
+                <h3 class="fw-bold pb-2">Men</h3>
+                <h6 class="fst-italic">Best Clothes For Men</h6>
+                <div class="hover-content  ">
+                  <div class="d-flex justify-content-center align-items-center flex-column h-100">
+                    <h3 class="fw-bold pb-2"> Men</h3>
+                    <h6 class="fw-light text-center w-75 lh-base pb-2">Dress smart, stand tall, conquer every single
+                      day.</h6>
+                    <button type="button" class="btn btn-outline-light rounded-0">Discover More</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row gap-4 gap-lg-3 ">
+              <div
+                class="col-12 col-lg-6 kids d-flex justify-content-center align-items-center flex-column position-relative">
+                <h3 class="fw-bold pb-2">Kids</h3>
+                <h6 class="fst-italic">Best Clothes For Kids</h6>
+                <div class="hover-content  ">
+                  <div class="d-flex justify-content-center align-items-center flex-column h-100">
+                    <h3 class="fw-bold pb-2">Kids</h3>
+                    <h6 class="fw-light text-center w-75 lh-base pb-2">Tiny threads, huge joy — made for little stars.
+                    </h6>
+                    <button type="button" class="btn btn-outline-light rounded-0">Discover More</button>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col-12 col-lg-6 accessories mb-5 d-flex justify-content-center align-items-center flex-column position-relative">
+                <h3 class="fw-bold pb-2">Accessories</h3>
+                <h6 class="fst-italic">Best Trend Accessories</h6>
+                <div class=" hover-content ">
+                  <div class="d-flex justify-content-center align-items-center flex-column h-100">
+                    <h3 class="fw-bold pb-2">Accessories</h3>
+                    <h6 class="fw-light text-center w-75 lh-base pb-2">Accessorize bold — because style lives in the
+                      details.</h6>
+                    <button type="button" class="btn btn-outline-light rounded-0">Discover More</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ***************   hero section end  *************** -->
+
+
+  <!-- ***************   men section start  *************** -->
+  <section id="men">
+    <div class="container men-sec">
+      <h2 class="fw-bold  mt-5">Men's Latest</h2>
+      <p class="fst-italic fw-medium">Details to details is what makes Hexashop different from the other themes. </p>
+      <div class="row">
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card mt-5">
+            <div class="position-relative ">
+              <img src="images/men-01.jpg" class="card-img-top" alt="...">
+              <div class=" d-flex justify-content-center align-items-center">
+                <div class="card-hide  d-flex gap-4 vh-100 justify-content-center ">
+                  <div class="card-hide-icon d-flex justify-content-center align-items-center">
+                    <i class="fa-solid fa-eye"></i>
+                  </div>
+                  <div class="card-hide-icon d-flex justify-content-center align-items-center">
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                  <div class="card-hide-icon d-flex justify-content-center align-items-center">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="card-dtail d-flex justify-content-between">
+                <h3 class="fw-bold">Classic Spring </h3>
+                <div class="star">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+              </div>
+              <div class="card-price">
+                <h4 class="fw-medium">$120.00</h4>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-12 d-none d-md-block col-md-6 col-lg-4">
+          <div class="card mt-5 d-none d-md-block d-lg-flex">
+            <div class="position-relative ">
+              <img src="images/men-02.jpg" class="card-img-top" alt="...">
+              <div class=" d-flex justify-content-center align-items-center">
+                <div class="card-hide  d-flex gap-4 vh-100 justify-content-center ">
+                  <div class="card-hide-icon d-flex justify-content-center align-items-center">
+                    <i class="fa-solid fa-eye"></i>
+                  </div>
+                  <div class="card-hide-icon d-flex justify-content-center align-items-center">
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                  <div class="card-hide-icon d-flex justify-content-center align-items-center">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="card-dtail d-flex justify-content-between">
+                <h3 class="fw-bold">Air Force 1x</h3>
+                <div class="star">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+              </div>
+              <div class="card-price">
+                <h4 class="fw-medium">$90.00</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-4 d-none d-lg-block ">
+          <div class="card mt-5 d-none d-lg-flex">
+            <div class="position-relative ">
+              <img src="images/men-01.jpg" class="card-img-top" alt="...">
+              <div class=" d-flex justify-content-center align-items-center">
+                <div class="card-hide  d-flex gap-4 vh-100 justify-content-center ">
+                  <div class="card-hide-icon d-flex justify-content-center align-items-center">
+                    <i class="fa-solid fa-eye"></i>
+                  </div>
+                  <div class="card-hide-icon d-flex justify-content-center align-items-center">
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                  <div class="card-hide-icon d-flex justify-content-center align-items-center">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="card-dtail d-flex justify-content-between">
+                <h3 class="fw-bold">Love Nana '20</h3>
+                <div class="star">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+              </div>
+              <div class="card-price">
+                <h4 class="fw-medium">$120</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ***************   men section end  *************** -->
+
+
+  <!-- *************** women section start  *************** -->
+  <section id="women">
+    <div class="container men-sec">
+      <h2 class="fw-bold  mt-5">Women's Latest</h2>
+      <p class="fst-italic fw-medium">Details to details is what makes Hexashop different from the other themes. </p>
+
+      <div class="row">
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card mt-5">
+            <div class="position-relative ">
+              <img src="images/women-01.jpg" class="card-img-top" alt="...">
+              <div class=" d-flex justify-content-center align-items-center">
+                <div class="card-hide  d-flex gap-4 vh-100 justify-content-center ">
+                  <div class="card-hide-icon d-flex justify-content-center align-items-center">
+                    <i class="fa-solid fa-eye"></i>
+                  </div>
+                  <div class="card-hide-icon d-flex justify-content-center align-items-center">
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                  <div class="card-hide-icon d-flex justify-content-center align-items-center">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="card-dtail d-flex justify-content-between">
+                <h3 class="fw-bold">New Green Jacket </h3>
+                <div class="star">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+              </div>
+              <div class="card-price">
+                <h4 class="fw-medium">$75.00</h4>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-12 d-none d-md-block col-md-6 col-lg-4">
+          <div class="card mt-5 d-none d-md-block d-lg-flex">
+            <div class="position-relative ">
+              <img src="images/women-02.jpg" class="card-img-top" alt="...">
+              <div class=" d-flex justify-content-center align-items-center">
+                <div class="card-hide  d-flex gap-4 vh-100 justify-content-center ">
+                  <div class="card-hide-icon d-flex justify-content-center align-items-center">
+                    <i class="fa-solid fa-eye"></i>
+                  </div>
+                  <div class="card-hide-icon d-flex justify-content-center align-items-center">
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                  <div class="card-hide-icon d-flex justify-content-center align-items-center">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="card-dtail d-flex justify-content-between">
+                <h3 class="fw-bold">Classic Dress</h3>
+                <div class="star">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+              </div>
+              <div class="card-price">
+                <h4 class="fw-medium">$45.00</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-4 d-none d-lg-block ">
+          <div class="card mt-5 d-none d-lg-flex">
+            <div class="position-relative ">
+              <img src="images/women-03.jpg" class="card-img-top" alt="...">
+              <div class=" d-flex justify-content-center align-items-center">
+                <div class="card-hide  d-flex gap-4 vh-100 justify-content-center ">
+                  <div class="card-hide-icon d-flex justify-content-center align-items-center">
+                    <i class="fa-solid fa-eye"></i>
+                  </div>
+                  <div class="card-hide-icon d-flex justify-content-center align-items-center">
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                  <div class="card-hide-icon d-flex justify-content-center align-items-center">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="card-dtail d-flex justify-content-between">
+                <h3 class="fw-bold">Classic Kid </h3>
+                <div class="star">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+              </div>
+              <div class="card-price">
+                <h4 class="fw-medium">$30.00</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- *************** women section end  *************** -->
+
+
+  <!-- ***************   kids section start  *************** -->
+  <section id="kids">
+    <div class="container men-sec">
+      <h2 class="fw-bold  mt-5">kid's Latest</h2>
+      <p class="fst-italic fw-medium">Details to details is what makes Hexashop different from the other themes. </p>
+
+      <div class="row">
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card mt-5">
+            <div class="position-relative ">
+              <img src="images/kid-01.jpg" class="card-img-top" alt="...">
+              <div class=" d-flex justify-content-center align-items-center">
+                <div class="card-hide  d-flex gap-4 vh-100 justify-content-center ">
+                  <div class="card-hide-icon d-flex justify-content-center align-items-center">
+                    <i class="fa-solid fa-eye"></i>
+                  </div>
+                  <div class="card-hide-icon d-flex justify-content-center align-items-center">
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                  <div class="card-hide-icon d-flex justify-content-center align-items-center">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="card-dtail d-flex justify-content-between">
+                <h3 class="fw-bold">School Collection </h3>
+                <div class="star">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+              </div>
+              <div class="card-price">
+                <h4 class="fw-medium">$80.00</h4>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-12 d-none d-md-block col-md-6 col-lg-4">
+          <div class="card mt-5 d-none d-md-block d-lg-flex">
+            <div class="position-relative ">
+              <img src="images/kid-02.jpg" class="card-img-top" alt="...">
+              <div class=" d-flex justify-content-center align-items-center">
+                <div class="card-hide  d-flex gap-4 vh-100 justify-content-center ">
+                  <div class="card-hide-icon d-flex justify-content-center align-items-center">
+                    <i class="fa-solid fa-eye"></i>
+                  </div>
+                  <div class="card-hide-icon d-flex justify-content-center align-items-center">
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                  <div class="card-hide-icon d-flex justify-content-center align-items-center">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="card-dtail d-flex justify-content-between">
+                <h3 class="fw-bold">Summer Camp</h3>
+                <div class="star">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+              </div>
+              <div class="card-price">
+                <h4 class="fw-medium">$12.00</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-4 d-none d-lg-block ">
+          <div class="card mt-5 d-none d-lg-flex">
+            <div class="position-relative ">
+              <img src="images/kid-03.jpg" class="card-img-top" alt="...">
+              <div class=" d-flex justify-content-center align-items-center">
+                <div class="card-hide  d-flex gap-4 vh-100 justify-content-center ">
+                  <div class="card-hide-icon d-flex justify-content-center align-items-center">
+                    <i class="fa-solid fa-eye"></i>
+                  </div>
+                  <div class="card-hide-icon d-flex justify-content-center align-items-center">
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                  <div class="card-hide-icon d-flex justify-content-center align-items-center">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="card-dtail d-flex justify-content-between">
+                <h3 class="fw-bold">Love Nana '20</h3>
+                <div class="star">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+              </div>
+              <div class="card-price">
+                <h4 class="fw-medium">$120</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+
+  </section>
+  <!-- ***************   kids section end  *************** -->
+
+  <!-- ***************   explore section start  *************** -->
+  <section id="explore">
+    <div class="container explore pt-5">
+
+      <div class="row">
+        <div class="col-12 col-lg-6">
+          <div class="explore-left">
+            <h2 class="pt-lg-4">Explore Our Products</h2>
+            <p class="pt-3">You are allowed to use this HexaShop HTML CSS template. You can feel free to modify or
+              edit this layout. You can convert this template as any kind of ecommerce CMS theme as you wish.</p>
+            <div class="explore-contain d-flex gap-3">
+              <i class="fa-solid fa-quote-left"></i>
+              <p> You are not allowed to redistribute this template ZIP file on any other website.</p>
+            </div>
+            <p class="pt-3">There are 5 pages included in this HexaShop Template and we are providing it to you for
+              absolutely free of charge at our TemplateMo website. There are web development costs for us.</p>
+            <p class="pt-3">If this template is beneficial for your website or business, please kindly <span>support
+                us</span> a little via PayPal. Please also tell your friends about our great website. Thank you.</p>
+            <div class="explore-footer">
+              <button type="button" class="btn btn-outline-dark rounded-0 mt-3">Discover More</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-6">
+          <div class="row">
+            <div class="col-12 col-lg-6">
+              <div class="explore-right-1 mt-5 mt-lg-4 d-flex justify-content-center align-items-center flex-column">
+                <h3 class="fw-bold">Leather Bags</h3>
+                <p class="fs-6 fst-italic">Latest Collection</p>
+              </div>
+            </div>
+
+            <div class="col-12 col-lg-6">
+              <div class="explore-right-2 mt-4">
+                <img src="images/explore-image-01.jpg" alt="">
+              </div>
+            </div>
+
+            <div class="col-12 col-lg-6 order-4 order-lg-3 mb-5">
+              <div class="explore-right-2 mt-4">
+                <img src="images/explore-image-02.jpg" alt="">
+              </div>
+            </div>
+
+            <div class="col-12 col-lg-6 order-3 order-lg-4">
+              <div class="explore-right-1 mt-5 mt-lg-4 d-flex justify-content-center align-items-center flex-column">
+                <h3 class="fw-bold">Different Types</h3>
+                <p class="fs-6 fst-italic">Over 304 Products</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ***************   explore section end  *************** -->
+
+
+  <!-- ***************  social-media  section start  *************** -->
+  <section id="social-m">
+    <div class="container social-m mt-5">
+      <h2 class="mt-2">Social Media</h2>
+      <p>Details to details is what makes Hexashop different from the other themes.</p>
+
+      <div class="row flex-nowrap instagram-row w-100 m-1 mb-5 justify-content-center">
+        <div class="col-2">
+          <div class="insta-img">
+            <img src="images/instagram-01.jpg" alt="">
+          </div>
+        </div>
+        <div class="col-2">
+          <div class="insta-img">
+            <img src="images/instagram-02.jpg" alt="">
+          </div>
+        </div>
+        <div class="col-2">
+          <div class="insta-img">
+            <img src="images/instagram-03.jpg" alt="">
+          </div>
+        </div>
+        <div class="col-2">
+          <div class="insta-img">
+            <img src="images/instagram-04.jpg" alt="">
+          </div>
+        </div>
+        <div class="col-2">
+          <div class="insta-img">
+            <img src="images/instagram-05.jpg" alt="">
+          </div>
+        </div>
+        <div class="col-2">
+          <div class="insta-img">
+            <img src="images/instagram-06.jpg" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ***************   social-media section end  *************** -->
+
+
+  <!-- ***************   subscribe section start  *************** -->
+  <section id="subscribe">
+    <div class="container subscribe mt-5">
+
+      <div class="row">
+        <div class="col-12 col-md-12 col-md-7 col-lg-7">
+          <h2 class="pt-5">By Subscribing To Our Newsletter You Can Get 30% Off</h2>
+          <p>Details to details is what makes Hexashop different from the other themes.</p>
+          <div class="row">
+            <div class="col-12 col-md-12 col-md-5 col-lg-5">
+              <div class="sub-left-input mt-3">
+                <input type="text" placeholder="Your Name" class="fs-6 px-2 fst-italic">
+              </div>
+            </div>
+            <div class="col-12 col-md-12 col-md-5 col-lg-5">
+              <div class="sub-left-input mt-3">
+                <input type="text" placeholder="Your Emial Address" class="fs-6 px-2 fst-italic">
+              </div>
+            </div>
+            <div class="col-12 col-md-12 col-md-2 col-lg-2">
+              <div class="sub-icon mt-3 d-flex justify-content-center align-items-center">
+                <i class="fa fa-paper-plane"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-12 col-md-5 col-lg-5">
+          <div class="row  mt-5 p-0 mb-3">
+            <div class="col-6 col-lg-6">
+              <h6 class="fw-bold">Store Location:</h6>
+              <p>Sunny Isles Beach,<br> FL 33160, United States</p>
+            </div>
+            <div class="col-6 col-lg-6">
+              <h6 class="fw-bold">Work Hours:</h6>
+              <p>07:30 AM - 9:30 PM <br>Daily</p>
+            </div>
+          </div>
+          <div class="row flex-nowrap  mb-3">
+            <div class="col-6 col-lg-6">
+              <h6 class="fw-bold">Phone: </h6>
+              <p>010-020-0340</p>
+            </div>
+            <div class="col-6 col-lg-6">
+              <h6 class="fw-bold">Email:</h6>
+              <p>info@company.com</p>
+            </div>
+          </div>
+          <div class="row flex-nowrap mb-3">
+            <div class="col-6 col-lg-6">
+              <h6 class="fw-bold">Office Location:</h6>
+              <p>North Miami Beach</p>
+            </div>
+            <div class="col-6 col-lg-6 mb-lg-5">
+              <h6 class="fw-bold">Social Media:</h6>
+              <p>Facebook, Instagram, <br> Behance, Linkedin</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ***************   subscribe section start  *************** -->
+
+  <!-- ***************    footer start  *************** -->
+  <footer>
+    <div class="container-fluid footer  text-light">
+      <div class="container mb-lg-5">
+        <div class="row ">
+          <div class="col-12 col-md-6 col-lg-3 text-center  ">
+            <div
+              class="footer-logo-img mt-5 mt-md-4 d-md-flex justify-content-md-center flex-md-column align-items-md-center ">
+              <img class="mt-lg-5" src="images/white-logo.png" alt="">
+              <ul class="text-center">
+                <li class="mt-4  text-center"><a href="">16501 Collins Ave, Sunny Isles Beach, FL 33160, United
+                    States</a></li>
+                <li class="pt-2"><a href="">hexashop@company.com</a></li>
+                <li class="pt-2"><a href="">010-020-0340</a></li>
+              </ul>
+            </div>
+          </div>
+          <div
+            class="col-12 col-md-6 col-lg-3 text-center text-md-start d-md-flex justify-content-md-center flex-md-column align-items-md-center">
+            <h4 class="fw-bold fs-6 mt-4 text-center">Shopping & Categories</h4>
+            <ul class="text-center">
+              <li class="mt-3"><a href="">Men’s Shopping</a></li>
+              <li class="pt-2"><a href="">Women’s Shopping</a></li>
+              <li class="pt-2"><a href="">Kid's Shopping</a></li>
+            </ul>
+          </div>
+          <div class="col-12  col-md-6 col-lg-3 mt-lg-5 text-center">
+            <h4 class="fw-bold fs-6 mt-4 pt-lg-2">Usful Links</h4>
+            <ul class="text-center">
+              <li class="mt-3"><a href="">Homepage</a></li>
+              <li class="pt-2"><a href="">About Us</a></li>
+              <li class="pt-2"><a href="">Help</a></li>
+              <li class="pt-2"><a href="">Contact Us</a></li>
+            </ul>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3 mt-lg-5 text-center ">
+            <h4 class="fw-bold fs-6 mt-4 text-center pt-lg-2">Help & Information</h4>
+            <ul class="text-center">
+              <li class="mt-3"><a href="">Help</a></li>
+              <li class="pt-2"><a href="">FAQ's</a></li>
+              <li class="pt-2"><a href="">Shipping</a></li>
+              <li class="pt-2"><a href="">Tracking ID</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="container under-footer mt-3 w-auto">
+        <div class="copy-right text-center">
+          <p class="pt-3 pt-lg-5">Copyright © 2025 HexaShop Co., Ltd. All Rights Reserved. </p>
+          <p>Design: <span>templateMo</span></p>
+        </div>
+        <div class="under-footer-icons d-flex justify-content-center gap-4 pb-4">
+          <i class="fa-brands fa-facebook-f fs-4"></i>
+          <i class="fa-brands fa-twitter fs-4"></i>
+          <i class="fa-brands fa-linkedin-in fs-4"></i>
+          <i class="fa-brands fa-behance fs-4"></i>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+  <!-- ***************    footer end  *************** -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
