@@ -7,7 +7,7 @@ The project demonstrates modern web layout, reusable components, and responsive 
 
 ## 🚀 Live Demo
 🔗 **Live Site:** Coming Soon  
-💻 **Source Code:** [View Repository](#)
+💻 **Source Code:** [View Repository]( https://github.com/mahir9104/hexashop)
 
 ---
 
